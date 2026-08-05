@@ -75,7 +75,7 @@ jobs:
 
       - name: Run update
         working-directory: ${{ env.REPO_DIR }}
-        run: historia update github --directory ./history --username "$USERNAME" --recency 7
+        run: historia update github --directory ./history --username "$USERNAME" --recency 2
 
       - name: Upload new content
         working-directory: ${{ env.REPO_DIR }}
