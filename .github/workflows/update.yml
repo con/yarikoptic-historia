@@ -104,3 +104,4 @@ jobs:
           OWNER_PROJECT_URL="https://github.com/$REPO_OWNER_TYPE/$REPO_OWNER/projects/$PROJECT_NUMBER"
           historia project populate --directory ./history --url "$OWNER_PROJECT_URL" --yes
           historia project update dates --url "$OWNER_PROJECT_URL"
+          historia project transition --url "$OWNER_PROJECT_URL" --current DONE --new History
