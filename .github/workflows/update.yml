@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: CodyCBakerPhD/historia-action@v2
         with:
-          username: [user]
-          project-url: [project url]
+          username: yarikoptic
+          project-url: https://github.com/orgs/con/projects/13
           recency: "2"
           token: ${{ secrets.GH_PAT }}
 
