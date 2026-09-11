@@ -21,6 +21,6 @@ jobs:
 
       - uses: CodyCBakerPhD/historia-action/project-update-dates@v2
         with:
-          url: [project url]
+          url: https://github.com/orgs/con/projects/13
           recency: "2"
           token: ${{ secrets.GH_PAT }}
